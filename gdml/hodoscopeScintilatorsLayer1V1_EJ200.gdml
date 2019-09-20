@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v0" unit="cm" x="-4.166584" y="-2.999026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v1" unit="cm" x="-4.166584" y="-1.999026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v2" unit="cm" x="-3.166584" y="-2.999026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v3" unit="cm" x="-3.166584" y="-1.999026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v4" unit="cm" x="-4.166584" y="-2.999026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v5" unit="cm" x="-4.166584" y="-1.999026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v6" unit="cm" x="-3.166584" y="-1.999026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v7" unit="cm" x="-3.166584" y="-2.999026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v8" unit="cm" x="-4.166584" y="-1.899026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v9" unit="cm" x="-4.166584" y="-0.8990255" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v10" unit="cm" x="-3.166584" y="-1.899026" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v11" unit="cm" x="-3.166584" y="-0.8990255" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v12" unit="cm" x="-4.166584" y="-1.899026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v13" unit="cm" x="-4.166584" y="-0.8990255" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v14" unit="cm" x="-3.166584" y="-0.8990255" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v15" unit="cm" x="-3.166584" y="-1.899026" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v16" unit="cm" x="-4.166584" y="2.500974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v17" unit="cm" x="-4.166584" y="3.500974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v18" unit="cm" x="-3.166584" y="2.500974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v19" unit="cm" x="-3.166584" y="3.500974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v20" unit="cm" x="-4.166584" y="2.500974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v21" unit="cm" x="-4.166584" y="3.500974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v22" unit="cm" x="-3.166584" y="3.500974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v23" unit="cm" x="-3.166584" y="2.500974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v24" unit="cm" x="-4.166584" y="-0.7990255" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v25" unit="cm" x="-4.166584" y="0.2009745" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v26" unit="cm" x="-3.166584" y="-0.7990255" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v27" unit="cm" x="-3.166584" y="0.2009745" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v28" unit="cm" x="-4.166584" y="-0.7990255" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v29" unit="cm" x="-4.166584" y="0.2009745" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v30" unit="cm" x="-3.166584" y="0.2009745" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v31" unit="cm" x="-3.166584" y="-0.7990255" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v32" unit="cm" x="-4.166584" y="3.600974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v33" unit="cm" x="-4.166584" y="4.600974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v34" unit="cm" x="-3.166584" y="3.600974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v35" unit="cm" x="-3.166584" y="4.600974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v36" unit="cm" x="-4.166584" y="3.600974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v37" unit="cm" x="-4.166584" y="4.600974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v38" unit="cm" x="-3.166584" y="4.600974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v39" unit="cm" x="-3.166584" y="3.600974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v40" unit="cm" x="-4.166584" y="1.400974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v41" unit="cm" x="-4.166584" y="2.400974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v42" unit="cm" x="-3.166584" y="1.400974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v43" unit="cm" x="-3.166584" y="2.400974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v44" unit="cm" x="-4.166584" y="1.400974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v45" unit="cm" x="-4.166584" y="2.400974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v46" unit="cm" x="-3.166584" y="2.400974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v47" unit="cm" x="-3.166584" y="1.400974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v48" unit="cm" x="-4.166584" y="0.3009745" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v49" unit="cm" x="-4.166584" y="1.300974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v50" unit="cm" x="-3.166584" y="0.3009745" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v51" unit="cm" x="-3.166584" y="1.300974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v52" unit="cm" x="-4.166584" y="0.3009745" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v53" unit="cm" x="-4.166584" y="1.300974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v54" unit="cm" x="-3.166584" y="1.300974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v55" unit="cm" x="-3.166584" y="0.3009745" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v56" unit="cm" x="-4.166584" y="4.700974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v57" unit="cm" x="-4.166584" y="5.700974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v58" unit="cm" x="-3.166584" y="4.700974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v59" unit="cm" x="-3.166584" y="5.700974" z="-11.36359"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v60" unit="cm" x="-4.166584" y="4.700974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v61" unit="cm" x="-4.166584" y="5.700974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v62" unit="cm" x="-3.166584" y="5.700974" z="8.636409"/>
+        <position name="hodoscopeScintilatorsLayer1V1_EJ200_v63" unit="cm" x="-3.166584" y="4.700974" z="8.636409"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="cm" name="hodoscopeScintilatorsLayer1V1_EJ200-SOL">
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v0" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v1" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v2"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v2" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v1" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v3"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v4" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v5" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v0"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v0" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v5" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v1"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v5" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v6" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v1"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v1" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v6" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v3"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v6" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v7" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v3"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v3" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v7" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v2"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v7" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v4" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v2"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v2" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v4" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v0"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v7" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v6" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v4"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v4" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v6" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v5"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v8" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v9" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v10"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v10" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v9" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v11"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v12" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v13" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v8"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v8" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v13" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v9"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v13" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v14" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v9"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v9" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v14" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v11"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v14" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v15" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v11"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v11" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v15" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v10"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v15" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v12" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v10"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v10" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v12" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v8"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v15" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v14" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v12"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v12" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v14" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v13"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v16" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v17" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v18"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v18" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v17" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v19"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v20" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v21" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v16"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v16" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v21" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v17"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v21" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v22" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v17"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v17" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v22" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v19"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v22" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v23" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v19"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v19" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v23" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v18"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v23" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v20" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v18"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v18" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v20" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v16"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v23" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v22" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v20"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v20" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v22" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v21"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v24" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v25" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v26"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v26" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v25" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v27"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v28" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v29" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v24"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v24" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v29" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v25"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v29" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v30" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v25"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v25" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v30" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v27"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v30" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v31" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v27"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v27" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v31" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v26"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v31" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v28" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v26"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v26" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v28" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v24"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v31" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v30" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v28"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v28" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v30" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v29"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v32" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v33" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v34"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v34" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v33" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v35"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v36" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v37" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v32"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v32" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v37" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v33"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v37" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v38" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v33"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v33" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v38" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v35"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v38" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v39" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v35"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v35" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v39" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v34"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v39" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v36" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v34"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v34" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v36" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v32"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v39" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v38" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v36"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v36" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v38" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v37"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v40" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v41" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v42"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v42" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v41" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v43"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v44" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v45" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v40"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v40" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v45" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v41"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v45" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v46" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v41"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v41" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v46" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v43"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v46" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v47" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v43"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v43" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v47" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v42"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v47" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v44" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v42"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v42" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v44" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v40"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v47" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v46" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v44"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v44" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v46" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v45"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v48" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v49" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v50"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v50" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v49" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v51"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v52" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v53" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v48"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v48" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v53" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v49"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v53" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v54" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v49"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v49" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v54" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v51"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v54" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v55" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v51"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v51" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v55" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v50"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v55" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v52" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v50"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v50" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v52" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v48"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v55" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v54" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v52"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v52" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v54" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v53"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v56" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v57" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v58"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v58" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v57" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v59"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v60" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v61" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v56"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v56" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v61" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v57"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v61" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v62" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v57"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v57" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v62" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v59"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v62" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v63" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v59"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v59" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v63" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v58"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v63" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v60" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v58"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v58" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v60" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v56"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v63" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v62" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v60"/>
+             <triangular vertex1="hodoscopeScintilatorsLayer1V1_EJ200_v60" vertex2="hodoscopeScintilatorsLayer1V1_EJ200_v62" vertex3="hodoscopeScintilatorsLayer1V1_EJ200_v61"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="hodoscopeScintilatorsLayer1V1_EJ200">
+            <materialref ref="EJ200"/>
+            <solidref ref="hodoscopeScintilatorsLayer1V1_EJ200-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="hodoscopeScintilatorsLayer1V1_EJ200"/>
+    </setup>
+</gdml>
