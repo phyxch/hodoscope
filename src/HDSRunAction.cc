@@ -1,5 +1,9 @@
 // Sep 13, 2019: hexc, James, Nadia, Ernesto, Denzel, Arfa
 // Update the code with proper file names
+//
+// Sep 20, 2019: hexc, James, Nadia, Denzel and Ernesto
+// Define the output variables for offline analysis
+//
 #include "HDSRunAction.hh"
 #include "HDSAnalysis.hh"
 
@@ -36,12 +40,12 @@ HDSRunAction::HDSRunAction()
     analysisManager->CreateH1("ElossLayer0","Edep in layer 0", 100, 0., 20*MeV);
     analysisManager->CreateH1("ElossLayer1","Edep in layer 1", 100, 0., 20*MeV);
     analysisManager->CreateH1("ElossLayer2","Edep in layer 2", 100, 0., 20*MeV);
-    analysisManager->CreateH1("ElossNeutronCell","Edep in neutronCell", 100, 0., 20*MeV);
-
+    analysisManager->CreateH1("ElossLayer3","Edep in layer 3", 100, 0., 20*MeV);
+  
     analysisManager->CreateH1("LengthLayer0","trackL in layer 0", 100, 0., 10*cm);    
     analysisManager->CreateH1("LengthLayer1","trackL in layer 1", 100, 0., 10*cm);
     analysisManager->CreateH1("LengthLayer2","trackL in layer 2", 100, 0., 10*cm);
-    analysisManager->CreateH1("LengthNeutronCell","trackL in neutronCell", 100, 0., 10*cm);
+    analysisManager->CreateH1("LengthLayer3","trackL in layer 3", 100, 0., 10*cm);
     
     // Creating ntuple
     //
@@ -49,11 +53,28 @@ HDSRunAction::HDSRunAction()
     analysisManager->CreateNtupleDColumn("ElossLayer0");
     analysisManager->CreateNtupleDColumn("ElossLayer1");
     analysisManager->CreateNtupleDColumn("ElossLayer2");
-    analysisManager->CreateNtupleDColumn("ElossNeutronCell");
+    analysisManager->CreateNtupleDColumn("ElossLayer3");
     analysisManager->CreateNtupleDColumn("LengthLayer0");
     analysisManager->CreateNtupleDColumn("LengthLayer1");
     analysisManager->CreateNtupleDColumn("LengthLayer2");
-    analysisManager->CreateNtupleDColumn("LengthNeutronCell");
+    analysisManager->CreateNtupleDColumn("LengthLayer3");
+
+    analysisManager->CreateNtupleDColumn("Layer0x");
+    analysisManager->CreateNtupleDColumn("Layer0y");
+    analysisManager->CreateNtupleDColumn("Layer0z");
+
+    analysisManager->CreateNtupleDColumn("Layer1x");
+    analysisManager->CreateNtupleDColumn("Layer1y");
+    analysisManager->CreateNtupleDColumn("Layer1z");
+
+    analysisManager->CreateNtupleDColumn("Layer2x");
+    analysisManager->CreateNtupleDColumn("Layer2y");
+    analysisManager->CreateNtupleDColumn("Layer2z");
+
+    analysisManager->CreateNtupleDColumn("Layer3x");
+    analysisManager->CreateNtupleDColumn("Layer3y");
+    analysisManager->CreateNtupleDColumn("Layer3z");
+    
     analysisManager->CreateNtupleDColumn("pID");
     analysisManager->CreateNtupleDColumn("EKin");
     analysisManager->CreateNtupleDColumn("xPos");

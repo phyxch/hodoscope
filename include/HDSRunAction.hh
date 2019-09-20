@@ -7,7 +7,7 @@
 #include "G4UserRunAction.hh"
 #include "globals.hh"
 
-#define nLayer 3;
+#define nLayer 4
 
 class G4Run;
 

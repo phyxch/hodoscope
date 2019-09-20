@@ -5,6 +5,10 @@
 //
 // Sep 13, 2019: hexc, James, Nadia, Ernesto, Denzel, Arfa
 // Update the code with proper file names
+//
+// Sep 20, 2019: hexc, James, Nadia, Denzel and Ernesto
+// Implement code to get the logical names of the hodoscope layers
+//
 
 #include "HDSDetectorConstruction.hh"
 
@@ -39,7 +43,7 @@ G4GlobalMagFieldMessenger* HDSDetectorConstruction::fMagFieldMessenger = nullptr
 
 HDSDetectorConstruction::HDSDetectorConstruction()
  : G4VUserDetectorConstruction(),
-   physiScint0(nullptr), physiScint1(nullptr), physiScint2(nullptr),
+   physiScint0(nullptr), physiScint1(nullptr), physiScint2(nullptr), physiScint3(nullptr),
    fCheckOverlaps(true)
 {
 }
@@ -138,18 +142,20 @@ G4VPhysicalVolume* HDSDetectorConstruction::DefineVolumes()
     
     // Read in gdml detector description
     G4GDMLParser parser;
-    parser.Read("hodoscope_v1.gdml");
+    parser.Read("hodoscope_v2.gdml");
     G4cout << "Geometry loaded from  file ...... hodoscopeBareSimplified_v0.gdml" << G4endl;
     
     G4VPhysicalVolume* WorldLV = parser.GetWorldVolume();
     G4LogicalVolume* W_log = WorldLV->GetLogicalVolume();
     W_log->SetMaterial(defaultMaterial);
 
-    /*
-    LVScint0 = parser.GetVolume("panel0_EJ200");
-    LVScint1 = parser.GetVolume("panel1_EJ200");
-    LVScint2 = parser.GetVolume("panel2_EJ200");
-    LVNeutronCell = parser.GetVolume("neutronCell_BC505");
+   
+    LVScint0 = parser.GetVolume("hodoscopeScintilatorsLayer0V1_EJ200");
+    LVScint1 = parser.GetVolume("hodoscopeScintilatorsLayer1V1_EJ200");
+
+    /*  
+	LVScint2 = parser.GetVolume("panel2_EJ200");
+	LVScint3 = parser.GetVolume("panel2_EJ200");
     */
 
     return WorldLV;

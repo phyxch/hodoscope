@@ -1,6 +1,8 @@
 // Sep 13, 2019: hexc, James, Nadia, Ernesto, Denzel, Arfa
 // Update the code with proper file names
 //
+// Sep 20, 2019: hexc, James, Nadia, Denzel and Ernesto
+// Implement code to get the logical names of the hodoscope layers
 
 #ifndef HDSDetectorConstruction_h
 #define HDSDetectorConstruction_h 1
@@ -10,20 +12,6 @@
 
 class G4VPhysicalVolume;
 class G4GlobalMagFieldMessenger;
-
-/// Detector construction class to define materials and geometry.
-/// The calorimeter is a box made of a given number of layers. A layer consists
-/// of an absorber plate and of a detection gap. The layer is replicated.
-///
-/// Four parameters define the geometry of the calorimeter :
-///
-/// - the thickness of an absorber plate,
-/// - the thickness of a gap,
-/// - the number of layers,
-/// - the transverse size of the calorimeter (the input face is a square).
-///
-/// In addition a transverse uniform magnetic field is defined 
-/// via G4GlobalMagFieldMessenger class.
 
 class HDSDetectorConstruction : public G4VUserDetectorConstruction
 {
@@ -37,15 +25,15 @@ class HDSDetectorConstruction : public G4VUserDetectorConstruction
 
     // get methods
     //
-    const G4VPhysicalVolume* GetScintLayer0PV() const;
-    const G4VPhysicalVolume* GetScintLayer1PV() const;
-    const G4VPhysicalVolume* GetScintLayer2PV() const;
-    const G4VPhysicalVolume* GetNeutronCellPV() const;
+    const G4VPhysicalVolume* GetScintLayer0PV() const;   // Top layer in X
+    const G4VPhysicalVolume* GetScintLayer1PV() const;   // Top layer in Y
+    const G4VPhysicalVolume* GetScintLayer2PV() const;   // Bottom layer in X
+    const G4VPhysicalVolume* GetScintLayer3PV() const;   // Bottom layer in Y
 
     const G4LogicalVolume* GetScintLayer0LV() const;
     const G4LogicalVolume* GetScintLayer1LV() const;
     const G4LogicalVolume* GetScintLayer2LV() const;
-    const G4LogicalVolume* GetNeutronCellLV() const;
+    const G4LogicalVolume* GetScintLayer3LV() const;
      
   private:
     // methods
@@ -67,8 +55,8 @@ class HDSDetectorConstruction : public G4VUserDetectorConstruction
     G4double           scintX, scintY, scintZ;
     G4int                 nofLayers;
 
-    G4VPhysicalVolume  *physiScint0, *physiScint1, *physiScint2, *physiNeutronCell;
-    G4LogicalVolume  *LVScint0, *LVScint1, *LVScint2, *LVNeutronCell;
+    G4VPhysicalVolume  *physiScint0, *physiScint1, *physiScint2, *physiScint3;
+    G4LogicalVolume  *LVScint0, *LVScint1, *LVScint2, *LVScint3;
 
 };
 
@@ -86,9 +74,10 @@ inline const G4VPhysicalVolume* HDSDetectorConstruction::GetScintLayer2PV() cons
   return physiScint2; 
 }
 
-inline const G4VPhysicalVolume* HDSDetectorConstruction::GetNeutronCellPV() const { 
-  return physiNeutronCell; 
+inline const G4VPhysicalVolume* HDSDetectorConstruction::GetScintLayer3PV() const { 
+  return physiScint3; 
 }
+
 
 inline const G4LogicalVolume* HDSDetectorConstruction::GetScintLayer0LV() const { 
   return LVScint0; 
@@ -102,9 +91,10 @@ inline const G4LogicalVolume* HDSDetectorConstruction::GetScintLayer2LV() const 
   return LVScint2; 
 }
 
-inline const G4LogicalVolume* HDSDetectorConstruction::GetNeutronCellLV() const { 
-  return LVNeutronCell; 
+inline const G4LogicalVolume* HDSDetectorConstruction::GetScintLayer3LV() const { 
+  return LVScint3; 
 }
+
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

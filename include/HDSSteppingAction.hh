@@ -1,5 +1,9 @@
 // Sep 13, 2019: hexc, James, Nadia, Ernesto, Denzel, Arfa
 // Update the code with proper file names
+//
+// Sep 20, 2019: hexc, James, Nadia, Ernesto and Denzel
+// Extract hit position at entry point for filling the analysis ntuple
+//
 
 #ifndef HDSSteppingAction_h
 #define HDSSteppingAction_h 1

@@ -3,6 +3,9 @@
 //
 // Sep 13, 2019: hexc, James, Nadia, Ernesto, Denzel, Arfa
 // Update the code with proper file names
+//
+// Sep 20, 2019L hexc, James, Nadia, Denzel and Ernesto
+// Shifted filling sequence in the analysis ntuple for the primary particle
 
 #include "HDSPrimaryGeneratorAction.hh"
 
@@ -186,14 +189,14 @@ void HDSPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 
     // get analysis manager
     auto analysisManager = G4AnalysisManager::Instance();
-    analysisManager->FillNtupleDColumn(8, pid);
-    analysisManager->FillNtupleDColumn(9, Ekin);
-    analysisManager->FillNtupleDColumn(10, xPos);
-    analysisManager->FillNtupleDColumn(11, yPos);
-    analysisManager->FillNtupleDColumn(12, zPos);
-    analysisManager->FillNtupleDColumn(13, xVec);
-    analysisManager->FillNtupleDColumn(14, yVec);
-    analysisManager->FillNtupleDColumn(15, zVec);
+    analysisManager->FillNtupleDColumn(20, pid);
+    analysisManager->FillNtupleDColumn(21, Ekin);
+    analysisManager->FillNtupleDColumn(22, xPos);
+    analysisManager->FillNtupleDColumn(23, yPos);
+    analysisManager->FillNtupleDColumn(24, zPos);
+    analysisManager->FillNtupleDColumn(25, xVec);
+    analysisManager->FillNtupleDColumn(26, yVec);
+    analysisManager->FillNtupleDColumn(27, zVec);
     
 }
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......	
